@@ -1,0 +1,31 @@
+; メールの設定
+[mail]
+Host = 
+Username = 
+Password = 
+Secure = 
+Port = 
+
+; 有効期限の設定
+[expire]
+minutes = 
+
+; お問い合わせ先の設定
+[contact]
+Host = 
+Username = 
+Password = 
+Secure = 
+Port = 
+
+; データベースの設定
+[database]
+hostname = 
+username = 
+password = 
+database = 
+dbdriver = 
+
+; 管理者ログイン
+[login]
+password = 
