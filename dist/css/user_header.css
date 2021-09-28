@@ -1,0 +1,28 @@
+.header_userguide
+{
+    text-align: center;
+}
+.button_userguide
+    {
+        text-align: left;
+        position: absolute;
+    }
+@media screen and (max-width:992px) {
+    .button_userguide
+    {
+        display:none;
+    }
+}
+.youtube{
+    position:relative;
+    padding-bottom:56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
